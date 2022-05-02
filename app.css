@@ -8,7 +8,7 @@
     table-layout: fixed;
     border-collapse: collapse;
     width: 60%;
-    margin: auto;
+    margin: 100px auto;
 }
 
 .tablehead {
@@ -57,7 +57,7 @@
     width: 510px;
     height: 44px;
     border-radius: 2em;
-    margin: 0 auto;
+    margin: 100px auto;
     
 }
 
@@ -66,8 +66,21 @@
 }
 
 
+
 /* hw03 */
 
 h3 {
     font-weight: normal;
+    margin: 0 auto;
+    
+}
+
+.order-list, .unorder-list {
+    margin: 0 auto;
+}
+
+/* hw04 */
+#list {
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
