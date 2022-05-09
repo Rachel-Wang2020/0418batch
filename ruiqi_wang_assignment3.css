@@ -1,0 +1,27 @@
+/* Q2 */
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 100px auto;
+}
+
+thead {
+  font-weight: bolder;
+}
+
+/* Q3 */
+select {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
