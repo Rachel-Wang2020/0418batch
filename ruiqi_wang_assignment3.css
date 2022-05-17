@@ -12,8 +12,8 @@ td {
 table {
   table-layout: fixed;
   border-collapse: collapse;
-  width: 60%;
-  margin: 100px auto;
+  /* width: 60%; */
+  /* margin: 100px auto; */
 }
 
 thead {
