@@ -14,42 +14,123 @@ code {
 
 
 /* Popup style */
-/* .popup-box {
+
+ 
+  .loginBox {
   width: 500px;
-  height: 400px;
+  height: 360px;
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-  } */
+
+}
+
+.Login{
+  width: 500px;
+  height: 360px;
+  background-color: white;
+  box-shadow: 1px 1px 4px 1px #88888833;
   
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  background-color: white;
+  
+}
+
+.label {
+  font-size: 13px;
+  color: #2b2a2a;
+  margin-top: 12px;
+  background-color: white;
  
-  .box {
-    
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    box-shadow: 12px 12px 2px 1px #90909133;
-   
-    
-  }
   
+}
+
+label.form-label{
+  background-color: transparent;
+}
+.control {
+  margin-top: 10px; 
+  background-color: white;
+  
+} 
+
+form {
+  width: 400px;
+  background-color: white;
+  
+}
+
+
+#email,#password,.signin-button {
+
+  width: 330px;
+  height: 30px;
+  border: 1px solid #99bac7;
+  background-color: transparent;
+ 
+}
+
+.loginBox{
+  background-color: transparent;
+
+}
+
+
+.signin-button {
+  width: 336px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: rgb(84, 70, 214);
+  color: white;
+}
+
+.don, .sign-up, .forgot-password{
+  font-size: 12px;
+  color: #2b2a2a;
+  
+}
+.don {
+  padding-left: 90px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.extra-info{
+  background-color: white;
+}
+
+.sign-up {
+  margin-left: 0px;
+  color: #0d23eb;
+  background-color: transparent;
+}
+
+.forgot-password {
+  margin-left: 20px;
+  color: #0d23eb;
+  background-color: transparent;
+} 
+
+   
   .close-icon {
-  content: 'x';
+  content: '✖️';
   cursor: pointer;
   position: fixed;
-  right: calc(15% - 30px);
-  top: calc(100vh - 85vh - 33px);
+  right: calc(15% - 64px);
+  top: calc(100vh - 85vh - 130px);
   background: transparent;
   width: 25px;
   height: 25px;
   font-size: 20px;
   color: black;
   display: flex;
-  } 
+  }  
