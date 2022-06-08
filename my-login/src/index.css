@@ -16,29 +16,31 @@ code {
 /* Popup style */
 
  
-  .loginBox {
-  width: 500px;
+  .modal-content {
+  width: 450px;
   height: 360px;
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
   background-color: white;
+  padding: 10px 10px;
+  border: 1px solid black;
 
 }
-
+/* 
 .Login{
   width: 500px;
   height: 360px;
   background-color: white;
   box-shadow: 1px 1px 4px 1px #88888833;
   
-}
+} */
 
-h1 {
+.modal-title {
   font-size: 28px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 20px;
   padding-bottom: 30px;
   background-color: white;
   
@@ -62,8 +64,14 @@ label.form-label{
   
 } 
 
-form {
+
+/* form {
   width: 400px;
+  background-color: white;
+  
+} */
+input.inputclass {
+  width: 320px;
   background-color: white;
   
 }
@@ -99,7 +107,6 @@ form {
   
 }
 .don {
-  padding-left: 90px;
   margin-top: 20px;
   background-color: transparent;
 }
@@ -115,17 +122,17 @@ form {
 }
 
 .forgot-password {
-  margin-left: 20px;
+  margin-left: 60px;
   color: #0d23eb;
   background-color: transparent;
 } 
 
    
-  .close-icon {
-  content: '✖️';
+  .btn-close {
+  content: 'X';
   cursor: pointer;
   position: fixed;
-  right: calc(15% - 64px);
+  right: calc(15% - 50px);
   top: calc(100vh - 85vh - 130px);
   background: transparent;
   width: 25px;
@@ -134,3 +141,65 @@ form {
   color: black;
   display: flex;
   }  
+
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+
+  Form {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  input.form-control {
+    width: 326px;
+    height: 22px;
+  }
+/* 
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 64px;
+    gap: 312px;
+
+    position: absolute;
+    width: 1440px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    background: #111827;
+
+  } */
+
+  .navbar li{
+    list-style: none;
+    display: inline-block;
+    flex-direction: row;
+    padding-right: 50px;
+    
+       
+  }
+
+
+  .page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  /* .content-wrap {
+    padding-bottom: 2.5rem;    
+  } */
+  
+  .footer {
+    width: 100%;
+position: absolute;
+bottom: 0
+           
+  }
